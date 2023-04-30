@@ -244,21 +244,19 @@ gap: 40px;
     gap: 24px; 
 }
 
-.list-about .item::before {
+ .list-about .item {
     display: block;
     content: "";
     height: 112px;
     background-color: var(--color-cloud);
-    /* background-image: url(../images/icons/antenna.svg); */
-    background-repeat: no-repeat;
+    border-radius: 4px;
     background-position: center;
     background-size: auto;
-    margin-bottom: 8px;
-    /* padding-top: 24px;
-    padding-bottom: 24px; */
+    margin-bottom: 8px; 
+    
 }
 
-.icon-strategy::before {
+/* .icon-strategy::before {
     background-image: url(../images/icons/antenna.svg);
 }
 
@@ -272,7 +270,7 @@ gap: 40px;
 
 .icon-technologies::before {
     background-image: url(../images/icons/astronaut.svg);
-}
+}  */
 
 .section-about {
     padding-top: 120px;
@@ -357,21 +355,43 @@ gap: 40px;
 .container-team .img {
     width: 100%; 
 }
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    
+}
 
-.name {
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--color-iris);
+    fill: #f4f4fd;
+  
+}
+.social-link:hover {
+    background-color: var(--color-ocean);
+}
+
+.team-name {
     padding: 32px 16px;
 }
-.name .section-subtitle {
+.team-name .section-subtitle {
     text-align: center;
     margin-bottom: 8px;
 
 }
-.text {
+.team-text {
     font-size: 16px;
     text-align: center;
     line-height: 1.5;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 8px;
 }
 /* footer */
 .footer {
@@ -379,7 +399,7 @@ gap: 40px;
     background-color: var(--color-navy-blue);
     padding: 100px 0;
 
-   
+   /* #31D0AA; */
 }
 .link-footer{
     margin-right: auto;
