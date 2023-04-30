@@ -245,21 +245,21 @@ gap: 40px;
 }
 
  .feature  {
-    display: block;
-    content: "";
+    display: flex;
     height: 112px;
     background-color: var(--color-cloud);
     border-radius: 4px;
     background-position: center;
     background-size: auto;
     margin-bottom: 8px; 
+    justify-content: center;
+    align-items: center;
     
 }
 
 .feature-icon {
     display: flex;
-    justify-content: center;
-    align-items: center;
+   
 
     
 }
