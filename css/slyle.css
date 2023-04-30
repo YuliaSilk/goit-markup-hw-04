@@ -260,8 +260,6 @@ gap: 40px;
 
 .icon-strategy::before {
     background-image: url(../images/icons/antenna.svg);
-    background-size: auto;
-
 }
 
 .icon-punctuality::before {
@@ -356,6 +354,10 @@ gap: 40px;
 /* .container-team .item .section-subtitle {
     padding-top: 32px;
 } */
+.container-team .img {
+    width: 100%; 
+}
+
 .name {
     padding: 32px 16px;
 }
