@@ -457,9 +457,10 @@ fill: var(--color-ocean);
 display: flex;
 align-items: baseline;
 margin-right: auto;
-gap: 120px;
 }
-
+.container-logo {
+    margin-right: 120px;
+}
 .link-footer{
     margin-right: auto;
     margin-bottom: 16px;
