@@ -445,9 +445,13 @@ fill: var(--color-ocean);
 
 /* footer */
 .footer {
-    display: block;
+    /* display: block; */
+    display: flex;
     background-color: var(--color-navy-blue);
     padding: 100px 0;
+    align-content: flex-start;
+    gap:120px;
+   
 
    /* #31D0AA; */
 }
@@ -477,6 +481,11 @@ fill: var(--color-ocean);
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
+}
+.socials-footer-container{
+       padding-bottom: 188px;
+       width: 208px;
+    height: 80px;
 }
 .socials-footer{
 
