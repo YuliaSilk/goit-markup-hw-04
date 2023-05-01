@@ -457,10 +457,10 @@ fill: currentColor;
 
 /* footer */
 .footer {
-    display: flex;
+    /* display: flex; */
     background-color: var(--color-navy-blue);
     padding: 100px 0;
-   margin-left: 0;
+   
 }
 .container {
     margin: 0;
