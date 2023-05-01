@@ -386,6 +386,7 @@ gap: 40px;
 fill: currentColor;
   }
 
+.social-link:hover,
 .social-link:hover {
     background-color: var(--color-ocean);
 }
@@ -452,8 +453,6 @@ fill: var(--color-ocean);
     align-content: flex-start;
     gap:120px;
    
-
-   /* #31D0AA; */
 }
 .link-footer{
     margin-right: auto;
@@ -484,12 +483,12 @@ fill: var(--color-ocean);
 }
 .socials-footer-container{
        padding-bottom: 188px;
-       width: 208px;
-    height: 80px;
+       min-width: 208px;
+       min-height: 80px;
 }
-.socials-footer{
+/* .socials-footer{
 
-}
+} */
 
 .social-footer-text {
     font-weight: 500;
@@ -497,6 +496,10 @@ fill: var(--color-ocean);
     line-height: 1.5;
     letter-spacing: 0.02em;  
     color: #FFFFFF;
+}
+.footer .social-link:hover,
+.footer .social-link:hover {
+    background-color: var(--color-green);
 }
 
 /* PORFOLIO */
