@@ -395,7 +395,8 @@ fill: currentColor;
 }
 
 .team-name {
-    padding: 32px 16px;
+   padding-top: 32px;
+   padding-bottom: 32px;
 }
 .team-name .section-subtitle {
     text-align: center;
@@ -416,7 +417,7 @@ fill: currentColor;
     margin: auto;
 }
 
-.customers .section-title {
+.customers-section-title {
     line-height: 1.1;
 }
 .customers-list {
@@ -478,13 +479,16 @@ fill: currentColor;
     gap:120px; */
    margin-left: 0;
 }
+.container {
+    margin: 0;
+}
 .footer-container {
 display: flex;
 align-items: baseline;
 margin-right: auto;
 }
 .container-logo {
-   gap: 120px;
+   margin-right: 120px;
 }
 .link-footer{
     margin-right: auto;
@@ -537,11 +541,11 @@ margin-right: auto;
     align-items: center; */
     gap: 16px;
 }
-/* .social-icon-footer {
+.social-icon-footer {
     fill: currentColor;
     width: 40px;
     height: 40px;
- } */
+ } 
 .social-link-footer {
     display: flex;
     align-items: center;
