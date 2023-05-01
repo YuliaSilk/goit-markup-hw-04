@@ -424,19 +424,21 @@ fill: currentColor;
     height: 88px;
     border: 1px solid var(--color-light-slate);
     border-radius: 4px;
+    color: var(--color-light-slate);
 }
-.customer-icon {
-    color: #8E8F99;
-}
+ .customer-icon {
+    fill: var(--color-light-slate);
+} 
 
 
-.customer-container:hover,
-.customer-container:focus {
+ .customer-link:hover .customer-container,
+ .customer-link:focus .customer-container {
     border: 1px solid var(--color-ocean);
 }
-.customer-icon .customer-link:hover,
-.customer-icon .customer-link:focus {
-color: var(--color-ocean);
+ .customer-link:hover .customer-icon,
+ .customer-link:focus .customer-icon {
+fill: var(--color-ocean);
+
 }
 
 
