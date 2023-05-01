@@ -469,6 +469,7 @@ fill: currentColor;
 display: flex;
 align-items: baseline;
 margin-right: auto;
+margin-left: auto;
 }
 .container-logo {
    margin-right: 120px;
@@ -503,9 +504,9 @@ margin-right: auto;
 .socials-footer-container{
        display: flex;
        display: block;
-       padding-bottom: 188px;
        min-width: 208px;
        min-height: 80px;
+       margin-top: 0;
        margin-left: 0;
 }
 
