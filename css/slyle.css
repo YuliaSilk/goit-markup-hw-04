@@ -462,9 +462,7 @@ fill: currentColor;
     padding: 100px 0;
    
 }
-.container {
-    margin: 0;
-}
+
 .footer-container {
 display: flex;
 align-items: baseline;
