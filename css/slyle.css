@@ -37,7 +37,7 @@ link {
 .container {
 margin:0 auto;
 max-width:1158px;
-padding:0 15px;
+padding:0 15px; 
 }
 
 .header-style {
@@ -50,7 +50,6 @@ padding:0 15px;
 .main-nav {
     display: flex;
     align-items: center;
-   
 }
 
 .header-nav {
@@ -76,7 +75,6 @@ gap: 40px;
 
 .logo-studio {
    color:var(--title-text-color); 
-   
 }
 
 .list {
@@ -105,6 +103,7 @@ gap: 40px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 .site-nav li .item:last-child { 
     margin-right: 0;
 }
@@ -118,6 +117,7 @@ gap: 40px;
 .site-nav .link:focus {
     color: var(--color-ocean);
 }
+
 .address a {
     color: var(--primery-text-color);
     font-style: normal;
@@ -146,17 +146,13 @@ gap: 40px;
 .active:focus {
     color: var(--color-ocean);
 }
-/* .address .item + .item { 
-    margin-left: 40px;
-}*/
 
 /* main */
 
 .hero-container{
-    padding-top: 188px;
-    padding-bottom: 188px;
     text-align: center;
 }
+
 .hero {
     max-width: 1440px;
     margin-left: auto;
@@ -167,6 +163,8 @@ gap: 40px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-title {
@@ -182,6 +180,7 @@ gap: 40px;
     text-align: center;
     letter-spacing: 0.02em;
 }
+
 .button {
     display: block;
     flex-direction: row;
@@ -205,6 +204,7 @@ gap: 40px;
     border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+
 .button:hover,
 .button:focus {
     background: #404BBF;
@@ -218,23 +218,30 @@ gap: 40px;
     padding-top: 0;
     padding-bottom: 0;
 }
-.section {
-    margin:0 auto;
-    max-width:1128px;
-    /* padding: 120px; */
-}
+
 .button-active:hover {
    background-color: var(--color-ocean);
 }
 
 /* about */
 
-.hide {
+/* .hide {
     display: none;
     margin-top: 0;
-    margin-bottom: 0;}
+    margin-bottom: 0;} */
 
-
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+ }
 
 .list-about {
     display: flex;
@@ -263,21 +270,6 @@ gap: 40px;
 
     
 }
-/* .icon-strategy::before {
-    background-image: url(../images/icons/antenna.svg);
-}
-
-.icon-punctuality::before {
-    background-image: url(../images/icons/clock.svg);
-}
-
-.icon-diligence::before {
-    background-image: url(../images/icons/diagram.svg);
-}
-
-.icon-technologies::before {
-    background-image: url(../images/icons/astronaut.svg);
-}  */
 
 .section-about {
     padding-top: 120px;
