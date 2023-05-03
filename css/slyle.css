@@ -70,7 +70,6 @@ gap: 40px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px;
 }
 
 .logo-studio {
@@ -468,7 +467,7 @@ margin-left: auto;
     margin-right: auto;
     margin-bottom: 16px;
 }
-.link-logo {
+/* .link-logo {
     display: inline-block;
     color: var(--color-iris);
     font-family: 'Raleway', sans-serif;
@@ -478,7 +477,7 @@ margin-left: auto;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     padding: 0;
-}
+} */
 .footer-logo {
        color: var(--color-cloud); 
 }
