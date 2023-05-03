@@ -463,11 +463,8 @@ margin-left: auto;
 .container-logo {
    margin-right: 120px;
 }
-.link-footer{
-    margin-right: auto;
-    margin-bottom: 16px;
-}
-/* .link-logo {
+   
+.link-logo-footer {
     display: inline-block;
     color: var(--color-iris);
     font-family: 'Raleway', sans-serif;
@@ -477,7 +474,10 @@ margin-left: auto;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     padding: 0;
-} */
+    margin-right: auto;
+    margin-bottom: 16px;
+
+}
 .footer-logo {
        color: var(--color-cloud); 
 }
